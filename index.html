@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="Navbar" id="Navbar">
+            <div class="logo">
+                <a href="">
+                    <h1>SS</h1>
+                </a>
+            </div>
+            <ul>
+                <button class="menu-closebutton">x</button>
+                <li><a href="#Navbar">Home</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <button class="menu-openbutton">Open</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="Main main-section">
+            <div class="main-content">
+                <div class="profile-image">
+                    <img src="HighResolutionBackground-2.jpg" alt="">
+                </div>
+                <div class="profile-desc">
+                    <p>Hello, I'm</p>
+                    <h1>Samarth Sabale</h1>
+                    <h3>Website Developer</h3>
+                    <div class="buttons">
+                        <button
+                            onclick="window.location.href = 'https://drive.google.com/drive/u/0/folders/1rJVVgwInqzDNLyjxaD9WBpuYw04shTYy'">
+                            Resume
+                        </button>
+                    </div>
+                    <div class="social-handle-links">
+                        <a href="https://www.linkedin.com/in/samarth-sabale-75ba76315">
+                        <img src="linkedin.png" alt="LinkedIn Profile">
+                        </a>
+                        <a href="https://www.instagram.com/samarthsable2526/">
+                        <img src="instagram.png" alt="Instagram Profile">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Skills main-section" id="Skills">
+            <p>Explore My</p>
+            <h1>Skills</h1>
+            <div class="skill-content">
+                <div class="frontend">
+                    <h1>Frontend</h1>
+                    <div class="inner-frontend">
+                        <section><img src="verify.png" alt=""><span>HTML <span>Experienced</span></span></section>
+                        <section><img src="verify.png" alt=""><span>CSS <span>Experienced</span></span></section>
+                        <section><img src="verify.png" alt=""><span>Javascript <span>Intermediate</span></span>
+                        </section>
+                        <section><img src="verify.png" alt=""><span>React.js <span>Basic</span></span></section>
+                        <section><img src="verify.png" alt=""><span>Flutter <span>Basic</span></span></section>
+                    </div>
+                </div>
+                <div class="backend">
+                    <h1>Backend</h1>
+                    <div class="inner-backend">
+                        <section><img src="verify.png" alt=""><span>Java <span>Intermediate</span></span></section>
+                        <section><img src="verify.png" alt=""><span>MySQL <span>Intermediate</span></span></section>
+                        <section><img src="verify.png" alt=""><span>Python <span>Basic</span></span></section>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <div class="Projects main-section" id="Projects">
+            <p>Explore My</p>
+            <h1>Projects</h1>
+            <div class="project-content">
+                <div class="project">
+                    <img src="calculator.png" alt="">
+                    <h2 class="project-title">simple_Calculator</h2>
+                    <a href="https://github.com/Samarth0045/simple_calculator.git"
+                        target="_blank">Github</a>
+                </div>
+                <div class="project">
+                    <img src="portfolio.png" alt="">
+                    <h2 class="project-title">Portfolio</h2>
+                    <a href="https://github.com/Samarth0045/Portfolio.git"
+                        target="_blank">Github</a>
+                </div>
+                <div class="project">
+                    <img src="CRUD.jpg" alt="">
+                    <h2 class="project-title">CRUD Operation</h2>
+                    <a href="https://github.com/Samarth0045/CRUD_operation.git"
+                        target="_blank">Github</a>
+                </div>
+                <div class="project">
+                    <img src="ecommerce.jpeg" alt="">
+                    <h2 class="project-title">E-Commerce</h2>
+                    <a href="https://github.com/Samarth0045/Ecommerce_website.git"
+                        target="_blank">Github</a>
+                </div>
+                <div class="project">
+                    <img src="airline.png" alt="">
+                    <h2 class="project-title">Airline management</h2>
+                    <a href="https://github.com/Samarth0045/Airline_expert_system.git"
+                        target="_blank">Github</a>
+                </div>
+                <div class="project">
+                    <img src="expense.png" alt="">
+                    <h2 class="project-title">Expense Tracker</h2>
+                    <a href="https://github.com/Samarth0045/Expense_tracker.git"
+                        target="_blank">Github</a>
+                </div>
+                <div class="project">
+                    <img src="weather.png" alt="">
+                    <h2 class="project-title">Weather App</h2>
+                    <a href="https://github.com/Samarth0045/Weather-app.git"
+                        target="_blank">Github</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="Contact main-section" id="Contact">
+            <h1>Contact Me</h1>
+            <div class="contact-content">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    <input type="hidden" name="access_key" value="6e84c600-6b4b-4a4a-b390-009af5e042c3">
+                    <p>Name</p>
+                    <input type="text" placeholder="First">
+                    <input type="text" placeholder="Last">
+                    <p>E-mail</p>
+                    <input type="email" name="user-mail" id="user-mail">
+                    <p>Your Message</p>
+                    <textarea name="comments" id="comments"></textarea>
+                    <input type="submit" value="Contact" class="form-submit-button">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="custom-cursor">
+        <div class="outer-circle"></div>
+        <div class="inner-circle"></div>
+    </div>
+
+    <button class="go-up"><img src="up-arrow.png" alt=""></button>
+    <script src="Portfolio.js"></script>
+</body>
+
+</html>
